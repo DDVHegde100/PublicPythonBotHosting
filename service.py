@@ -8,3 +8,6 @@ async def on_ready():
     print('Initiating Instant Kill...')
 
 client.run(os.getenv('TOKEN'))
+
+
+@client.commands()
